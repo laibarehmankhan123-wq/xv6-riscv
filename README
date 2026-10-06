@@ -48,13 +48,18 @@ riscv64-softmmu.  Once they are installed, and in your shell
 search path, you can run "make qemu".
 
 Functionalities:
-1)Crash/Error Reporter — when a kernel error occurs, save/display the error context.
-2)System Statistics Counter — count interrupts, system calls, context switches, allocations, etc.
-3)Kernel Alarm/Reminder — schedule a kernel event to happen after N seconds.
-4)Kernel Theme/Color Module — different terminal themes/modes for your kernel shell.
-5)Kernel Mini-Games Module — tiny games such as Snake, Tic-Tac-Toe, or Guess the Number running directly through the kernel shell.
-6)Process Search Command — findproc chrome / findproc 03-style searching through your process table.
-7)CPU Usage History — instead of showing only current CPU usage, keep the last 30 measurements and display a tiny graph.
-8)Resource Warning System — automatically warn when memory/process count/etc. crosses a threshold.
-9)Kernel Benchmark Mode — run simple CPU/memory tests and report execution time.
-10)System Information Command — your own sysinfo showing kernel version, architecture, memory, CPU information, uptime, and build date.
+Architecture
+
+ CPU Register Monitor
+ Cache Hit/Miss Simulator
+ Instruction Execution Counter
+ Memory Access Visualizer
+ CPU Performance Analyzer
+
+Operating System
+
+ Process Monitor
+ Dynamic Memory Manager
+ Process Priority Manager
+ Kernel Event Logger
+ Resource/Health Monitor
